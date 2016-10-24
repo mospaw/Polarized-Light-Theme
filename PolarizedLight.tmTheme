@@ -1887,13 +1887,140 @@
 
 <dict>
   <key>name</key>
+  <string>SQL Source</string>
+  <key>scope</key>
+  <string>source.sql</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#333333</string>
+  </dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>SQL Command</string>
+  <key>scope</key>
+  <string>keyword.other.DML.sql</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#006699</string>
+  </dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>SQL Command</string>
+  <key>scope</key>
+  <string>keyword.other.DML.II.sql</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#0099cc</string>
+  </dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>SQL Single Quoted</string>
+  <key>scope</key>
+  <string>string.quoted.single.sql</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#660033</string>
+  </dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>SQL Double Quoted</string>
+  <key>scope</key>
+  <string>string.quoted.double.sql</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#660033</string>
+  </dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>SQL Backtick Quoted</string>
+  <key>scope</key>
+  <string>string.quoted.other.backtick.sql</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#330066</string>
+  </dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>SQL Comparison</string>
+  <key>scope</key>
+  <string>keyword.operator.comparison.sql</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#33cc33</string>
+  </dict>
+</dict>
+
+
+<dict>
+  <key>name</key>
+  <string>EE Tag</string>
+  <key>scope</key>
+  <string>ee.tag.html</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#cc6600</string>
+  </dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>EE tag constant</string>
+  <key>scope</key>
+  <string>constant.name.tag.ee</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#804000</string>
+  </dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>EE tag quoted</string>
+  <key>scope</key>
+  <string>ee.tag.html string.quoted.double.html</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#0077ff</string>
+  </dict>
+</dict>
+<dict>
+  <key>name</key>
+  <string>EE tag quoted</string>
+  <key>scope</key>
+  <string>ee.tag.html string.quoted.single.html</string>
+  <key>settings</key>
+  <dict>
+    <key>foreground</key>
+    <string>#0077ff</string>
+  </dict>
+</dict>
+
+
+
+
+<dict>
+  <key>name</key>
   <string>GitGutter deleted</string>
   <key>scope</key>
   <string>markup.deleted.git_gutter</string>
   <key>settings</key>
   <dict>
     <key>foreground</key>
-    <string>#F92672</string>
+    <string>#990000</string>
   </dict>
 </dict>
 <dict>
@@ -1904,7 +2031,7 @@
   <key>settings</key>
   <dict>
     <key>foreground</key>
-    <string>#A6E22E</string>
+    <string>#009900</string>
   </dict>
 </dict>
 <dict>
