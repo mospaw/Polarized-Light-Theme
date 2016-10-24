@@ -12,7 +12,7 @@
 				<key>background</key>
 				<string>#F8F8F8</string>
 				<key>caret</key>
-				<string>#000000</string>
+				<string>#cc6600</string>
 				<key>foreground</key>
 				<string>#111111</string>
 				<key>invisibles</key>
@@ -20,8 +20,21 @@
 				<key>lineHighlight</key>
 				<string>#EEE8D5</string>
 				<key>selection</key>
-				<string>#66CCFF</string>
+				<string>#ffcc99</string>
 			</dict>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>highlight.whitespace</string>
+		<key>scope</key>
+		<string>highlight.whitespace</string>
+		<key>settings</key>
+		<dict>
+			<key>background</key>
+			<string>#FFFFFF</string>
+			<key>foreground</key>
+			<string>#bbbbbb</string>
+		</dict>
 		</dict>
 		<dict>
 			<key>name</key>
