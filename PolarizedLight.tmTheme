@@ -24,17 +24,17 @@
 			</dict>
 		</dict>
 		<dict>
-		<key>name</key>
-		<string>highlight.whitespace</string>
-		<key>scope</key>
-		<string>highlight.whitespace</string>
-		<key>settings</key>
-		<dict>
-			<key>background</key>
-			<string>#FFFFFF</string>
-			<key>foreground</key>
-			<string>#bbbbbb</string>
-		</dict>
+			<key>name</key>
+			<string>highlight.whitespace</string>
+			<key>scope</key>
+			<string>highlight.whitespace</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff</string>
+				<key>foreground</key>
+				<string>#bbbbbb</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
