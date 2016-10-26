@@ -61,6 +61,33 @@
 			</dict>
 		</dict>
 		<dict>
+			<key>Variable</key>
+			<string>Variable other</string>
+			<key>scope</key>
+			<string>variable.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2AA198</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Variable</key>
+			<string>Variable Language</string>
+			<key>scope</key>
+			<string>variable.language.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#296661</string>
+			</dict>
+		</dict>
+
+
+
+		<dict>
 			<key>name</key>
 			<string>StringNumber</string>
 			<key>scope</key>
@@ -123,9 +150,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold</string>
+				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#073642</string>
+				<string>#778899</string>
 			</dict>
 		</dict>
 		<dict>
@@ -951,8 +978,10 @@
 			<string>keyword.control.import.include.php</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#BD3800</string>
+				<string>#99583D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1003,6 +1032,20 @@
 				<string>#D31E1E</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP constant</string>
+			<key>scope</key>
+			<string>constant.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#992D00</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>PHP: Array</string>
@@ -1067,8 +1110,10 @@
 			<string>keyword.other.new.php</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#CB4B16</string>
+				<string>#803719</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1079,7 +1124,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#536871</string>
 			</dict>
@@ -1102,10 +1147,31 @@
 			<string>storage.modifier.extends.php, storage.type.class.php, keyword.operator.class.php</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic bold</string>
 				<key>foreground</key>
 				<string>#A57800</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Class</string>
+			<key>scope</key>
+			<string>entity.name.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#663311</string>
+			</dict>
+		</dict>
+
+
+
+
+
+
 		<dict>
 			<key>name</key>
 			<string>PHP: Class Function</string>
@@ -1200,8 +1266,10 @@
 			<string>storage.type.function.php</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#BD3800</string>
+				<string>#991166</string>
 			</dict>
 		</dict>
 		<dict>
