@@ -1,0 +1,1 @@
+A theme based on Solarized Light but with a lot more selectors. 
