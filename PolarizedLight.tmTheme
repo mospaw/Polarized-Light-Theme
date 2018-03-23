@@ -10,11 +10,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F8F8F8</string>
+				<string>#f3eee8</string>
 				<key>caret</key>
 				<string>#cc6600</string>
 				<key>foreground</key>
-				<string>#111111</string>
+				<string>#887766</string>
 				<key>invisibles</key>
 				<string>#EAE3C9</string>
 				<key>lineHighlight</key>
@@ -24,6 +24,19 @@
 				<key>selectionForeground</key>
 				<string>#332211</string>
 			</dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>Text and Source Base Colors</string>
+		    <key>scope</key>
+		    <string>text, source</string>  
+		    <key>settings</key>
+		    <dict>
+		        <key>foreground</key>
+		        <string>#111111</string>
+				<key>background</key>
+				<string>#F8F8F8</string>
+			</dict>		    	
 		</dict>
 		<dict>
 			<key>name</key>
